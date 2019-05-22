@@ -1,0 +1,166 @@
+---
+title: "Pesquisa Quantitativa"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Fundamentos
+Gil (2002) explica, de maneira resumida, que **a pesquisa quantitativa traduz em números as opiniões e informações para classificá-los e organizá-los**, desta forma se pauta no uso de **métodos estatísticos** para trabalhar com os dados.
+
+Esta abordagem se baseia fortemente na filosofia positivista que sustenta, de acordo com Löwy (1985, p. 35-36), em três ideias básicas:
+1. que a sociedade humana é regulada por **leis naturais**;
+
+2. que os métodos e os procedimentos utilizados para conhecer a sociedade não diferem em nada daqueles empregados para conhecer a natureza; e
+
+3. que, como conclusão, as ciências sociais devem funcionar exatamente segundo o modelo de **objetividade**, **neutralidade** e **isenção de juízos de valor** das ciências da natureza.
+
+Admitimos cientificamente que existência ou inexistência de elementos na natureza se regem pela **lei das probabilidades**, logo, quanto mais conhecemos as características destes fenônemos melhor podemos descrevê-los, por outro lado quanto menos os conhecemos menor a confiabilidade de nossos resultados.
+
+Assim o experimento quantitativo exige um processo prévio de conhecimento, que pode se iniciar pelo estudo **exploratório dos dados**, por um experimento **qualitativo**, ou ainda por ambos.
+
+É no processo prévio que são achados o **tamanho da população**, a **chance de encontrar** elementos para o estudo com as características necessárias ao estudo, a **chance de não encontrá-los**, de se avaliar a **importância que estas características tem em relação ao fenomeno estudado**, como é a **distribuição destas características na população** estudada e **formular hipóteses** que serão **provadas** ou **refutadas**.
+
+Dá-se o nome de **construto** da pesquisa a determinação destes elementos chave, atendendo assim a declaração de Löwy (1985), com a reprodução mais fidedigna possível das **leis naturais**, da **neutralidade** na análise e na escolha dos elementos que farão parte do estudo, na **isenção de juízos de valor** em relação a formulação de causa e efeito das características versus resultados que serão encontrados e, finalmente, da **objetividade** nos resultados.
+
+## Aplicação de experimentos quantitativos
+
+Além dos esforços em prol da definição do construto, prévio, como já explicado, o pesquisador precisa considerar que esta abordagem demanda uma distribuição de esforços ou investimentos para se chegar aos resultados da seguinte forma:
+
+1. grande esforço no planejamento e na geração do construto;
+
+2. esforço reduzido em cada interação de coleta de informação, considerando o tamanho da população;
+
+3. esforço moderado na tabulação de dados.
+
+O conhecimento sobre a distribuição de esforços é fundamental para que o pesquisador possa lidar com as restrições orçamentárias e temporais na execução de seu projeto de pesquisa.
+
+Antes de começar a pesquisa alguns contornos são possíveis em função das restrições:
+
+1. na empresa o uso de **SIM** (Sistema de Informação de Marketing) que pode manter dados exploratórios reduz a necessidade de levantamentos para cada nova pesquisa ou ainda com a divisão de entregas para o cliente em **estudo preliminar** e **estudo definitivo**, reduzindo a pressão por resultados (a restrição temporal);
+
+2. em um empreendimento único a quantidade de interações pode ser reduzida, desde que reduzida também a confiabilidade, para isso **estudos piloto** podem ser realizados para corroborar a decisão de redução;
+
+3. o uso de **ferramentas informatizadas** na coleta e tabulação dos dados pode reduzir o esforço final.
+
+## Delimitação do objeto de estudo
+A delimitação do objeto de estudo se dá pela determinação da **população de interesse**. Na geografia a população é o grupo que habita uma localidade, já para fins de pesquisa podem-se incluir outras delimitações como o gênero (masculino ou feminino), uma faixa etária, ou um hábito específico. 
+
+Alguns exemplos de população de interesse, do mais amplo para o mais restritivo:
+
+* Moradores do Brasil - 209.3 milhões de habitantes, estimativa (IBGE, 2017).
+
+* Moradores de Curitiba - 1.751.907 habitantes (IBGE, 2010)
+
+* Empresas do ramo de serviços, na regional do Boqueirão - 9.390 unidades (SMF Curitiba, 2015).
+
+* Mulheres moradoras no bairro Hauer em Curitiba, com idades entre 17 e 18 anos - 381 habitantes ( IPPUC, 2010)
+
+Quando se faz um **estudo sobre toda a população de interesse** dá-se o nome de **censo**, normalmente este tipo de estudo tem como objetivo descrever todas as características de uma população de interesse e pode ser feito de forma **transversal** (uma única vez) ou de forma **longitudinal** (várias vezes sobre a mesma população ao longo do tempo).
+
+O estudo quantitativo censitário longitudinal descritivo mais conhecido no Brasil é aquele realizado pelo IBGE a cada 10 anos, chamado Censo da População do Brasil.
+
+O pesquisador deve considerar que a quantidade de interações é sempre maior que a população de interesse, é durante a interação que o pesquisador identifica quais entrevistados fazem parte da população de interesse, normalmente com questões como idade, local onde mora, renda, etc.
+
+## Amostragem
+
+Pelo alto custo em se promover um estudo censitário o pesquisador pode fazer uso da amostragem. A **amostragem** é o **cálculo do tamanho de um subconjunto, parte da população de interesse**, com o objetivo de representar a população. 
+
+### Distribuição Normal
+
+De forma geral, na natureza encontramos por vezes a distribuição aleatória de elementos descritos a partir da distribuição normal.
+
+### Características da população
+
+As características da população devem avaliadas se podem gerar ou não impacto sobre as pesquisas que serão feitas. Por exemplo em 2017 o Jornal Gazeta do Povo (https://www.gazetadopovo.com.br/esportes/futebol/pesquisa-revela-que-torcida-do-atletico-ampliou-vantagem-sobre-a-do-coritiba-8l0fgdbewiztjj86czyzw4rwb/) patrocinou um levantamento da Paraná Pesquisas em Curitiba que determinou que 31,2% dos moradores torcem pelo Atlético Paraense, 26,7% torcem pelo Coritiba, 9% pelo Paraná Clube, 0,1% por outros times, 32,9 não torcem por time algum ou não quiseram responder.
+
+Se hipoteticamente o pesquisador pretende entender como o torcedor avalia a administração do presidente do Atlético então este dado premilinar da distribuição das torcidas pode ter relação direta com as respostas dos entrevistados e precisa ser considerada.
+
+Então a probabilidade do pesquisador encontrar, aleatoriamente entre transeuntes torcedores do Atlético Paranaense é de 31,2% ou 0,312 no modelo do cálculo, já a probabilidade dele não os achar é o seu complemento, ou seja 0,688. A fórmula do complemento é simples:
+$$Complemento=1-ChanceDeEncontrar$$
+```{r}
+p<- 0.312   
+q<- 1 - p
+q
+```
+
+O cálculo da amostragem é realizado de duas formas:
+
+#### Cálculo do tamanho da amostra para população infinita
+
+São consideradas populações infinitas aquelas com número de elementos (N) maior que 100 mil elementos, para isso utilizamos a fórmula a seguir:
+$$n= \frac{Z^{2}*p*q}{e^{2}}$$
+Vamos observar, por exemplo, o caso da população de Curitiba onde foi realizada a pesquisa do Jornal Gazeta do Povo, onde a população estimada é de 1.751.907, neste cálculo vamos calcular um intervalo de confiança de 95%, de acordo com a tabela score Z o valor a ser utilizado é de $Z=1.96$. Vamos considerar também erro amostral de 5%, logo $e=0.05$
+
+$$n= \frac{1.96^{2}*0.312*0.688}{0.05^{2}}$$
+```{r}
+Z<- 1.96
+e<- 0.05
+n<- (Z^2*p*q)/e^2
+n ## tamanho da amostra
+```
+Chegamos então a quantidade de questionários válidos que precisamos dispor para tabular os resultados.
+
+#### Cálculo do tamanho da amostra para população finita
+
+Outra forma de cálculo é realizada com populações finitas, aquelas com menos de 100 mil elementos, neste caso utilizamos a seguinte fórmula:
+$$n= \frac{Z^{2}*p*q*N}{e^{2}(N-1)+Z^{2}*p*q}$$
+Observe que desta vez precisamos precisar o total da população de interesse, retratado pela letra "N" maiúscula. Vamos simular agora a amostra pensando na quantidade de empresas do ramo de serviços, na regional do Boqueirão, como vimos 9.390 unidades. Vamos considerar, da mesma forma que a anterior, o intervalo de confiança de 95%, ou de acordo com a tabela score Z 1,96 e erro amostral de 5%, logo $e=0.05$, entretanto como não existem variações significativas na população para nosso estudo vamos utilizar $p=0.5$ e $q=0.5$
+
+$$n= \frac{1.96^{2}*0.5*0.5*9390}{0.05^{2}(9390-1)+1.96^{2}*0.5*0.5}$$
+
+```{r}
+N<- 9390
+Z<- 1.96
+e<- 0.05   
+p<- 0.5
+q<- 0.5
+n<- ( Z^2*p*q*N)/(e^2*(N-1)+Z^2*p*q)
+n ## tamanho da amostra
+
+```
+
+De acordo com este cálculo...
+```{r,echo=FALSE}
+library(lattice)
+
+e4a <- seq(-4, 4, length = 10000)   # Data to set up out normal
+e4b <- dnorm(e4a, 0, 1)
+
+xyplot(e4b ~ e4a,                   # Lattice xyplot
+       type = "l",
+       main = "Resultados possíveis na Curva Normal",
+       panel = function(x,y, ...){
+         panel.xyplot(x,y, ...)
+         panel.abline( v = c(0, 1, 4), lty = 2)  #set z and lines
+         
+         xx <- c(0, x[x>=0 & x<=4], 1.5)         #Color area
+         yy <- c(0, y[x>=0 & x<=4], 0) 
+         panel.polygon(xx,yy, ..., col='red')
+       })
+```
+
+
+
+
+
+This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+
+## Including Code
+
+You can include R code in the document as follows:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
